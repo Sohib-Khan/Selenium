@@ -9,6 +9,7 @@ public class Assertj {
     public void loginTest() {
 
         String actualTitle = "Dashboard";
+
         String expectedTitle = "Dashboard";
 
         Assert.assertEquals(actualTitle, expectedTitle);

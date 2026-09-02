@@ -9,6 +9,7 @@ public class Example {
     @Test
     public void validLogin() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
+
         driver.get("https://event-management-lac-eight.vercel.app/login");
         driver.findElement(By.xpath("//input[@type='email']"))
                 .sendKeys("artifactgeekscompany@gmail.com");

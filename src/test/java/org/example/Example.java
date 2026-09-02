@@ -11,7 +11,9 @@ public class Example {
         WebDriver driver = new FirefoxDriver();
 
         driver.get("https://event-management-lac-eight.vercel.app/login");
+
         driver.findElement(By.xpath("//input[@type='email']"))
+
                 .sendKeys("artifactgeekscompany@gmail.com");
         driver.findElement(By.cssSelector("input[placeholder='Enter your password']")).
                 sendKeys("Admin@123");

@@ -19,6 +19,7 @@ public class Example_01 {
         Thread.sleep(2000);
         List<WebElement> link = driver.findElements(By.tagName("a"));
         Thread.sleep(2000);
+
         System.out.println(link.size());
         for (int i =0;i<link.size();i++){
             System.out.println(link.get(i).getText());

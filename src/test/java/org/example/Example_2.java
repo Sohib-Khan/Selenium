@@ -12,7 +12,7 @@ public class Example_2 {
 
         Robot rb = new Robot();
         rb.keyPress(KeyEvent.VK_S);
-        rb.keyPress(KeyEvent.VK_0);
+        rb.keyPress(KeyEvent.VK_O);
 
 
     }

@@ -15,6 +15,7 @@ public class Google {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.google.com/");
 
+
         Thread.sleep(3000);
         driver.findElement(By.name("q")).sendKeys("Selenium");
         // Wait for suggestions

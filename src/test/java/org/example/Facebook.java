@@ -14,6 +14,7 @@ public class Facebook {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://dev-pawan.devhub.lrinternal.com/auth.aspx");
         driver.manage().window().maximize();
+
         String parent_Window = driver.getWindowHandle();
 
 

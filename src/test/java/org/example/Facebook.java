@@ -18,8 +18,10 @@ public class Facebook {
         String parent_Window = driver.getWindowHandle();
 
 
+
         driver.findElement(By.xpath("//*[@id=\"interfacecontainerdiv\"]/span[5]")).click();
 // Get all window handles and store in array
+
         String[] windows = driver.getWindowHandles()
                 .toArray(new String[0]);
 

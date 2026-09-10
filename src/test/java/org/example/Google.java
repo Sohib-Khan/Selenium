@@ -13,7 +13,9 @@ public class Google {
     @Test
     public void Search() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
+
         driver.get("https://www.google.com/");
+
 
 
         Thread.sleep(3000);

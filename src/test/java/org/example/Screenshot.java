@@ -23,6 +23,7 @@ public class Screenshot {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://aijobfit.artifactgeeks.com/");
       TakesScreenshot takesScreenshot  = (TakesScreenshot) driver;
+
         File src =takesScreenshot.getScreenshotAs(OutputType.FILE);
 
 

@@ -17,7 +17,6 @@ public class Google {
         driver.get("https://www.google.com/");
 
 
-
         Thread.sleep(3000);
         driver.findElement(By.name("q")).sendKeys("Selenium");
         // Wait for suggestions
@@ -48,6 +47,5 @@ public class Google {
 
         suggestions.get(3).click();
 
-        // driver.quit();
     }
 }

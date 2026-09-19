@@ -24,7 +24,7 @@ public class Screenshot {
         driver.get("https://aijobfit.artifactgeeks.com/");
       TakesScreenshot takesScreenshot  = (TakesScreenshot) driver;
 
-        File src =takesScreenshot.getScreenshotAs(OutputType.FILE);
+        File src = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
 
         try {

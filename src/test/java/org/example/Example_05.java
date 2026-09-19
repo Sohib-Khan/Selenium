@@ -26,6 +26,7 @@ public class Example_05 {
         Thread.sleep(2000); // Naya tab khulne ka wait
 
         // 4. Sabhi open windows/tabs ki IDs get karo
+
         Set<String> allWindows = driver.getWindowHandles();
 
         // 5. Naye tab (Child Window) mein switch karo

@@ -71,6 +71,7 @@ public class Registration_page {
 
         driver.findElement(By.id("btnRegister")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("successMessage")));
+
         String Expected ="Registration submitted successfully!";
         String Actual = driver.findElement(By.id("successMessage")).getText();
         System.out.println("Exepected Result :- " +Expected);
